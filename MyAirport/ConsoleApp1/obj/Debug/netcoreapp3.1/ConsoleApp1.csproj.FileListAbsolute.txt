@@ -1,0 +1,10 @@
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\931700085\MyAirport\MyAirport\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
