@@ -1,0 +1,10 @@
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.deps.json
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.dll
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.pdb
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.csprojAssemblyReference.cache
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.AssemblyInfoInputs.cache
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.AssemblyInfo.cs
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.dll
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\obj\Debug\netcoreapp3.1\MyAirport.EF.pdb
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.runtimeconfig.json
+C:\Users\931700085\MyAirport\MyAirport\MyAirport.EF\bin\Debug\netcoreapp3.1\MyAirport.EF.runtimeconfig.dev.json
