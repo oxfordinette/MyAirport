@@ -1,17 +1,36 @@
 ﻿using System;
+using System.Configuration;
 using System.Linq;
 using MASB.MyAirport.EF;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Topshelf;
 
 namespace MASB.MyAirport.Console
 {
+
     class Program
     {
+        public static readonly ILoggerFactory MyLoggerFactory
+       = LoggerFactory.Create(builder => { builder.AddConsole(); });
+        
+
         static void Main(string[] args)
         {
             System.Console.WriteLine("Hello!");
 
+        
+
+        DbContextOptionsBuilder optionsBuilder = new DbContextOptionsBuilder<MyAirportContext>();
+            optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MyAirport"].ConnectionString);
+            ///On utilise la factory pour gérer les logs
+            
+            optionsBuilder.UseLoggerFactory(MyLoggerFactory);
+
             System.Console.WriteLine("MyAirport project bonjour!!");
-            using (var db = new MyAirportContext())
+            DbContextOptions<MyAirportContext> myOptions = (DbContextOptions<MyAirportContext>)optionsBuilder.Options;
+            using (var db = new MyAirportContext(myOptions))
             {
                 // Create
                 System.Console.WriteLine("Création du vol LH1232");
@@ -76,11 +95,10 @@ namespace MASB.MyAirport.Console
                 db.Remove(v1);
                 db.SaveChanges();
                 System.Console.ReadLine();
-            
 
+            }
 
 
         }
-    }
     }
 }
