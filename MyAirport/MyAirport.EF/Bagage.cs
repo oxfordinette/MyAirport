@@ -11,13 +11,13 @@ namespace MASB.MyAirport.EF
         public int BagageID { get; set; }
         public int VolID { get; set; }
         public Vol Vol { get; set; }
-        public char CODE_IATA { get; set; }
+        public string CODE_IATA { get; set; }
         public DateTime DATA_CREATION { get; set; }
-        public char CLASSE { get; set; }
+        public string CLASSE { get; set; }
         public Byte PRIORITAIRE { get; set; }
-        public char STA { get; set; }
-        public char SSUR { get; set; }
-        public char DESTINATION { get; set; }
+        public string STA { get; set; }
+        public string SSUR { get; set; }
+        public string DESTINATION { get; set; }
         public string ESCALE { get; set; }
   
     }
