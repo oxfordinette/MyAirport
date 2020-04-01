@@ -23,7 +23,8 @@ namespace MASB.MyAirport.EF
         public string DESTINATION { get; set; }
         [Column(TypeName = "char(12)")]
         public string ESCALE { get; set; }
-        [Column(TypeName = "char(12)")]
+ 
+
 
 
     }
