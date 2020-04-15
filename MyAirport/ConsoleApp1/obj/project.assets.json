@@ -87,7 +87,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.3": {
+      "Microsoft.EntityFrameworkCore.Analyzers/3.1.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -1496,7 +1496,6 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.2",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.2",
           "Microsoft.Extensions.Logging": "3.1.2",
           "Microsoft.Extensions.Logging.Abstractions": "3.1.2",
@@ -1508,7 +1507,10 @@
         },
         "runtime": {
           "bin/placeholder/MyAirport.EF.dll": {}
-        }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -1704,17 +1706,17 @@
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/3.1.3": {
-      "sha512": "FrGD6Os1wCM7dq7kCvFMR1ixEo0VsceqYBpKm6DuF8nDlyHGCYRnaeagMjTraWCtZz0jpqGu83qD880E/NgSBA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/3.1.2": {
+      "sha512": "2v0Md70wiGS1vmco8/koAz93eOSusFh83OqwYWFxhxS6wSii7LDOhWL5Ww/zRsuGkxH4uWtNkMg5gLXBTs64Jg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/3.1.3",
+      "path": "microsoft.entityframeworkcore.analyzers/3.1.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.3.1.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.3.1.2.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -5554,11 +5556,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\931700085\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\931700085\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5574,8 +5576,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
-              "projectPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj"
+            "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
+              "projectPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj"
             }
           }
         }
@@ -5615,6 +5617,9 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

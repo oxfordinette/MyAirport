@@ -19,6 +19,7 @@ namespace MASB.MyAirport.EF
         public DbSet<Vol> Vol { get; set; }
         public DbSet<Bagage> Bagage { get; set; }
 
+
         public MyAirportContext(DbContextOptions<MyAirportContext> options)
             : base(options)
         { }
@@ -27,7 +28,7 @@ namespace MASB.MyAirport.EF
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             ///Récupére la chaine de connection
-            optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MyAirport"].ConnectionString);
+           //optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MyAirport"].ConnectionString);
             ///On utilise la factory pour gérer les logs
             optionsBuilder.UseLoggerFactory(MyLoggerFactory);
         }
