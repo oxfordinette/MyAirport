@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {}
+    "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
+    "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "projectUniqueName": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
         "projectName": "MyAirport.EF",
-        "projectPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "projectPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
         "packagesPath": "C:\\Users\\931700085\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\obj\\",
+        "outputPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\931700085\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

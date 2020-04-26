@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\931700085\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\931700085\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
-                "projectPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj"
+              "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
+                "projectPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj"
               }
             }
           }
@@ -47,6 +47,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.2.1, )"
             }
           },
           "imports": [
@@ -60,6 +68,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -68,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
+    "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "projectUniqueName": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
         "projectName": "MyAirport.EF",
-        "projectPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
+        "projectPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\MyAirport.EF.csproj",
         "packagesPath": "C:\\Users\\931700085\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\931700085\\MyAirport\\MyAirport\\MyAirport.EF\\obj\\",
+        "outputPath": "C:\\Users\\931700085\\Desktop\\MyAirport\\MyAirport\\MyAirport.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\931700085\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,6 +126,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

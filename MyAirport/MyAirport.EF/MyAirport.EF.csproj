@@ -1,8 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>MASB.MyAirport.EF</RootNamespace>
+    <GenerateConfigurationFile>true </GenerateConfigurationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\931700085\Desktop\MyAirport\MyAirport\MyAirport.EF\MyAirport.EF.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -10,8 +15,10 @@
     <Compile Remove="Migrations\20200221160220_Initial.Designer.cs" />
     <Compile Remove="Migrations\20200221160658_InitialCreate.cs" />
     <Compile Remove="Migrations\20200221160658_InitialCreate.Designer.cs" />
+    <Compile Remove="Migrations\20200221160927_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200221160927_InitialCreate.Designer.cs" />
   </ItemGroup>
-
+  
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
@@ -19,6 +26,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.2" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
   </ItemGroup>
 
 </Project>

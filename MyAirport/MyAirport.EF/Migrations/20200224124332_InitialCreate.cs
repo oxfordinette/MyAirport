@@ -17,10 +17,10 @@ namespace MASB.MyAirport.EF.Migrations
                     LIG = table.Column<string>(nullable: true),
                     JEK = table.Column<int>(nullable: false),
                     DHC = table.Column<DateTime>(nullable: false),
-                    PKG = table.Column<string>(nullable: false),
-                    IMM = table.Column<string>(nullable: false),
+                    PKG = table.Column<string>(nullable: true),
+                    IMM = table.Column<string>(nullable: true),
                     PAX = table.Column<int>(nullable: false),
-                    DES = table.Column<string>(nullable: false)
+                    DES = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
@@ -34,13 +34,13 @@ namespace MASB.MyAirport.EF.Migrations
                     BagageID = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     VolID = table.Column<int>(nullable: false),
-                    CODE_IATA = table.Column<string>(nullable: false),
+                    CODE_IATA = table.Column<string>(nullable: true),
                     DATA_CREATION = table.Column<DateTime>(nullable: false),
-                    CLASSE = table.Column<string>(nullable: false),
+                    CLASSE = table.Column<string>(nullable: true),
                     PRIORITAIRE = table.Column<byte>(nullable: false),
-                    STA = table.Column<string>(nullable: false),
-                    SSUR = table.Column<string>(nullable: false),
-                    DESTINATION = table.Column<string>(nullable: false),
+                    STA = table.Column<string>(nullable: true),
+                    SSUR = table.Column<string>(nullable: true),
+                    DESTINATION = table.Column<string>(nullable: true),
                     ESCALE = table.Column<string>(nullable: true)
                 },
                 constraints: table =>

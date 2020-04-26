@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyAirport.EF</name>
+    </assembly>
+    <members>
+        <member name="T:MASB.MyAirport.EF.Vol">
+            <summary>
+            Class Vol, représente une instance de Vol
+            </summary>
+        </member>
+        <member name="M:MASB.MyAirport.EF.Vol.#ctor">
+            <summary>
+            Clé primaire de la classe vol
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.VolID">
+            <summary>
+            Numéro du Vol
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.CIE">
+            <summary>
+            Compagnie du vol
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.LIG">
+            <summary>
+            Ligne du Vol
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.DHC">
+            <summary>
+            Dernier horaire connu du Vol
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.PKG">
+            <summary>
+            Numéro de parking
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.PAX">
+            <summary>
+            Nombre de passager
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.DES">
+            <summary>
+            Destination du Vol
+            </summary>
+        </member>
+        <member name="P:MASB.MyAirport.EF.Vol.mesBagages">
+            <summary>
+            Constructeur d'une instance Vol
+            </summary>
+        </member>
+    </members>
+</doc>

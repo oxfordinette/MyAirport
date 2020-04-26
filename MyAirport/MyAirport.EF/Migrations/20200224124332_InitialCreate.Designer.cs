@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MASB.MyAirport.EF.Migrations
 {
     [DbContext(typeof(MyAirportContext))]
-    [Migration("20200221160927_InitialCreate")]
+    [Migration("20200224124332_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -29,19 +29,16 @@ namespace MASB.MyAirport.EF.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("CLASSE")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CODE_IATA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DATA_CREATION")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("DESTINATION")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ESCALE")
                         .HasColumnType("nvarchar(max)");
@@ -50,12 +47,10 @@ namespace MASB.MyAirport.EF.Migrations
                         .HasColumnType("tinyint");
 
                     b.Property<string>("SSUR")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("STA")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("VolID")
                         .HasColumnType("int");
@@ -78,15 +73,13 @@ namespace MASB.MyAirport.EF.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("DES")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("DHC")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("IMM")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("JEK")
                         .HasColumnType("int");
@@ -98,8 +91,7 @@ namespace MASB.MyAirport.EF.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("PKG")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(1)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("VolID");
 
